@@ -50,7 +50,7 @@ services:
   # ----------------------------------------------------------------------------
   # 2. Frontend Static Site (React + Vite SPA)
   # ----------------------------------------------------------------------------
-  - type: static
+  - type: static_site
     name: wasl-ai-frontend
     region: frankfurt
     plan: free
